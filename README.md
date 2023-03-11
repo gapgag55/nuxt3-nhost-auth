@@ -1,4 +1,4 @@
-# Nuxt 3 + Nhost Auth
+# Nuxt 3 + Nhost Auth + Pinia
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
