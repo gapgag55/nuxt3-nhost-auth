@@ -21,6 +21,6 @@
   const authStore = useAuthStore()
 
   const login = async () => {
-    authStore.loginAction({ email: email.value, password: password.value })
+    authStore.login({ email: email.value, password: password.value })
   }
 </script>

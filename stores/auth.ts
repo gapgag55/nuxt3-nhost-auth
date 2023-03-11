@@ -8,7 +8,7 @@ interface LoginPayload {
   password: string
 }
 
-const loginAction = async (payload: LoginPayload) => {
+const login = async (payload: LoginPayload) => {
   const res = await auth.signIn(payload)
   if (!res.session) return 
 
