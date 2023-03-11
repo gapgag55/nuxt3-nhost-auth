@@ -1,8 +1,8 @@
 import { NhostClient } from '@nhost/vue'
 
 const nhost = new NhostClient({
-  subdomain: 'klwlgekgfbmpcnxnkpir',
-  region: 'ap-southeast-1'
+  subdomain: '',
+  region: ''
 })
 
 export const auth = nhost.auth
