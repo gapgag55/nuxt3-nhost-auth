@@ -12,7 +12,7 @@ const loginAction = async (payload: LoginPayload) => {
   const res = await auth.signIn(payload)
   if (!res.session) return 
 
-  authEvents.setAuthCookieEvent()
+  authEvents.setAuthCookie()
   navigateTo(routesConfig.home)
 }
 
